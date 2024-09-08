@@ -39,7 +39,7 @@ function pesquisar() {
     }
 
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p style='color: white; font-size: 30px;'>Nada foi encontrado</p>"
     }
 
     // Atribui os resultados gerados à seção HTML
