@@ -1,92 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>alura-google-gemini</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>gastronomia</title>
 </head>
 
 <body>
-    
-<header>
-<h1> Gastronimia Venezuelana</h1>
-</header>
-    
-<main>
-
-    <section>
-        <input type="text" placeholder=" Ajuda, Acessoria juridica, Denuncias">
-        <button onclick="pesquisar()">Pesquisar</button>
-    </section>
-    <section class="resultados-pesquisa" id="resultados-pesquisa">
-    </section>
-</section>
-    
-<section class="resultados-pesquisa" id="resultados-pesquisa">
-
-    <div class="item-resultado">
-    <h2>
-        <a href="https://www.tudoculinaria.com/receitas/hallaca-venezuelana/" target="_blank">Hallaca Venezuelana</a>
-    </h2>
-
-    <p class="descricao-meta">
-        A hallaca é um prato tradicional da Venezuela, especialmente consumido no período natalino. É feita com uma massa de milho, recheada com carnes, legumes e temperos variados, envolvida em folhas de banana e cozida. Uma verdadeira explosão de sabores!
-    </p>
-
-    <p>
-        <a href="https://receitas.globo.com/receitas-da-tv/mais-voce/hallaca.ghtml" target="_blank">Aprenda a fazer</a>
-    </p>
-</div>
-
-<div class="item-resultado">
-    <h2>
-        <a href="https://www.tudogostoso.com.br/receita/112491-massa-para-cachapa-panqueca-venezuelana.html" target="_blank">Cachapa Venezuelana</a>
-    </h2>
-
-    <p class="descricao-meta">
-        A cachapa é um prato típico da Venezuela, uma espécie de panqueca feita com massa de milho. É uma delícia versátil, podendo ser recheada com diversos ingredientes como queijo, carne desfiada ou manteiga.
-    </p>
-
-    <p>
-        <a href="https://boraprovar.com/cachapas-venezuelanas/" target="_blank">Aprenda a fazer</a>
-    </p>
-</div> 
-
-<div class="item-resultado">
-    <h2>
-        <a href="https://www.tudogostoso.com.br/receita/112491-massa-para-cachapa-panqueca-venezuelana.html" target="_blank">Pabellón Criollo</a>
-    </h2>
-
-    <p class="descricao-meta">
-        O pabellón criollo é o prato nacional da Venezuela, uma combinação saborosa de desfiado de carne bovina, arroz branco, feijão preto refogado, banana plantain frita e queijo branco. Um clássico da culinária venezuelana!
-    </p>
-
-    <p>
-        <a href="https://www.youtube.com/results?search_query=pabellon+criollo+receita" target="_blank">Aprenda a fazer</a>
-    </p>
-</div>
-
-</section>
-    
-</main> 
-    
+    <header>
+        <h1>Gastronomia Venezuelana</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder=" pesquise" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
     <footer>
-    <p>cunilania venzuelana uma experincia cheia de muito sabores </p>
-    <p>
-te invito a conhecer estos pratos que sao uma delicia para teu paladar
-    </p>
-    
-    </footer> 
-    
-    
+        <p>Culinaria venezuelana cheia de muitos sabores</p>
+        <p>Te convido a conhecer estos pratos que são uma delicia para teu paladar </p>
+    </footer>
     <script src="dados.js"></script>
-
     <script src="app.js"></script>
-    
-    
 </body>
 
 </html>
